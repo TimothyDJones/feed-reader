@@ -1,0 +1,8 @@
+asyncio
+aiohttp
+bs4
+feedparser
+pytz
+pyyaml
+validators
+yattag

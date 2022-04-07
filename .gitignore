@@ -1,0 +1,24 @@
+# generated c python files, if any
+*.pyc
+# any log file
+*.log
+# any rolled over log file
+*.log.*
+# log file from actions
+logs/
+# IDE
+.idea/
+.vscode/
+# I think this is pipenv
+__pycache__/
+# this is for testing
+.pytest_cache/
+# config for prod
+prod.cfg
+# config for test
+test.cfg
+# output folder
+out/
+dev/
+venv/
+.venv/

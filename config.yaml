@@ -1,0 +1,8 @@
+feeds:
+  https://jvns.ca/atom.xml
+  https://www.makeuseof.com/feed/
+  https://xkcd.com/atom.xml
+
+full_articles: true
+
+timezone: America/Chicago
