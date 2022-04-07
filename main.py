@@ -14,5 +14,7 @@ if __name__ == "__main__":
 
     fr = FeedReader(urls=urls)
     items = fr.get_feeds()
-    for item in items:
-        print("{i}".format(i=pformat(object=item, indent=2)))
+    # for item in items:
+    #     print("{i}".format(i=pformat(object=item, indent=2)))
+
+    print(fr.generate_html(items))
